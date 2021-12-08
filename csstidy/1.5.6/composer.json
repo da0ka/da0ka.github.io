@@ -1,0 +1,17 @@
+{
+	"name": "cerdic/css-tidy",
+	"description": "CSSTidy is a CSS minifier",
+	"license": "LGPL-2.1-or-later",
+	"authors": [
+		{
+			"name": "Cedric MORIN",
+			"email": "changeme@mailinator.com"
+		}
+	],
+	"autoload" : {
+		"classmap": ["."]
+	},
+	"require": {
+
+	}
+}
