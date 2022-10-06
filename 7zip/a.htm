@@ -1,0 +1,7 @@
+<title>test</title><input type=file id=f><script type=module>
+import SevenZip from "../7zip/7zz.es6.js";
+const sevenZip=await SevenZip();
+f.onchange=()=>{
+sevenZip.FS.readFile(f.files[0]);
+}
+</script>
