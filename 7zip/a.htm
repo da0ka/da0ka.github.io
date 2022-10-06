@@ -2,6 +2,6 @@
 import SevenZip from "../7zip/7zz.es6.js";
 const sevenZip=await SevenZip();
 f.onchange=()=>{
-sevenZip.callMain(["a","a.7z",f.files[0]])
+sevenZip.callMain(["a","a.7z",f.files[0].name])
 }
 </script>
