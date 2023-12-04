@@ -1,0 +1,1 @@
+repodate.json links https://repo.anaconda.com/pkgs/free/
